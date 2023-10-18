@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <main>
+
+    <div class="container">
+
+      <div class="card grid-row-span">
+
+        <div class="personal-info ">
+
+          <div>
+
+            <img src="/images/image-jeremy.png" 
+            alt="jeremy">
+
+          </div>
+          <div>
+            <p>Report for</p>
+            <h1>
+              Jeremy Robson
+            </h1>
+          </div>
+          
+
+        </div>
+
+          <div class="options">
+            <button class="btn" data-option="daily" >Daily</button>
+            <button class="btn" data-option="weekly">Weekly</button>
+            <button class="btn" data-option="monthly">Monthly</button>
+          </div>
+
+      </div>
+        
+        <div class="tracker" data-spacing="work">
+          <div class="tracker-image" >
+            <img src="/images//icon-work.svg" alt="work">
+          </div>
+          <div class="tracker-content" >
+
+            <div class="header">
+              <p>Work</p>
+              <span>...</span>
+            </div>
+            
+            <div class="time-track">
+              <h1 class="current">5hrs</h1>
+              <p class="previous">Yesterday - 7hrs</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tracker" data-spacing="play">
+          <div class="tracker-image" >
+            <img src="/images//icon-play.svg" alt="play">
+          </div>
+          <div class="tracker-content">
+            <div class="header">
+              <p>Play</p>
+              <span>...</span>
+            </div>
+            <div class="time-track">
+              <h1 class="current">1hrs</h1>
+              <p class="previous">Yesterday - 2hrs</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="tracker" data-spacing="study">
+          <div class="tracker-image" >
+            <img src="/images//icon-study.svg" alt="study">
+          </div>
+          <div class="tracker-content">
+            <div class="header"
+            >
+              <p>Study</p>
+              <span>...</span>
+
+            </div>
+
+            <div class="time-track">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Yesterday - 1hrs</p>
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        <div class="tracker" data-spacing="exercise">
+          <div class="tracker-image" >
+            <img src="/images//icon-exercise.svg" alt="exercise">
+          </div>
+          <div class="tracker-content">
+            <div class="header">
+              <p>Exercise</p>
+              <span>...</span>
+            </div>
+            <div class="time-track">
+              <h1 class="current">1hrs</h1>
+              <p class="previous">Yesterday - 1hrs</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="tracker" data-spacing="social">
+          <div class="tracker-image" >
+            <img src="/images//icon-social.svg" alt="social">
+          </div>
+          <div class="tracker-content">
+            <div class="header">
+              <p>Social</p>
+              <span>...</span>
+            </div>
+            <div class="time-track">
+              <h1 class="current">1hrs</h1>
+              <p class="previous">Yesterday - 3hrs</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="tracker" data-spacing="selfCare">
+          <div class="tracker-image" >
+            <img src="/images//icon-self-care.svg" alt="selfCare">
+          </div>
+          <div class="tracker-content">
+            <div class="header">
+              <p>Self Care</p>
+              <span>...</span>
+            </div>
+            <div class="time-track">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Yesterday - 1hrs</p>
+            </div>
+          </div>
+          
+          
+        </div>
+        
+      
+
+    </div>
+
+  </main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
